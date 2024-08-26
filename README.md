@@ -1,6 +1,19 @@
-# Game Simulation Project
+# Harkonnen Attack Game
 
+The Harkonnen are attacking!
+Our base has cobbled together a moving platform with a very powerful shield generator and amped-up auto-aiming laser on it.  They are dangerous if used together, but you may successfully preserve this base in our narrow canyon with these makeshift defenses.  Expect the enemy to drop tiny, super-dense masses on us—thankfully their local shortage of spice means that they will have a very limited number!
+You may recall from history that the simultaneous overlapping use of lasers and shields can have disastrous consequences (a nuclear explosion), and we have been unable to get a safety interlock in place yet—so you’ll just have to make sure that your operators are…cautious.  Now if you’ll excuse me, I have an ornithopter to catch…
+
+## Game Play
+
+- **Objective**: Repell all three dense masses without letting a single mass hit the home world.
+
+Using the capacitive sense slider and the 2 buttons on the SLSTK3402A EFM32, you will defend the home world. A 'super-dense' mass will fall from the sky and you have to bounce the mass back into space with the platform. The mass will only bounce higher if the shield is activated using the left button. If the shield is not activated when the mass hits the platform, a dead bounce will occure and the mass will lose momentum. If the mass loses too much momentum, it will fall through the platform. If you get into trouble, you have 1 lazer that will destroy the mass. 
+
+
+## Project Technical Description
 This project is a game simulation designed for the SLSTK3402A EFM32 Pearl Gecko PG Silicon Labs Development Board. It uses an RTOS (Real-Time Operating System) to handle multiple tasks such as physics calculations, user input, display updates, and LED indicators, all coordinated through semaphores, mutexes, and timers.
+
 
 ## Table of Contents
 
